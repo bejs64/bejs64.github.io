@@ -28,11 +28,22 @@ a:link {
   display: table;
   clear: both;
 }
+
+.gradient-ascii {
+    white-space: pre;
+    font-size: 14px;
+    line-height: 1.1;
+    background: linear-gradient(to right, #9f00c5, #00cade, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+
 </style>
 </head>
 <body>
 <div class="row">
-   <pre>
+   <pre class="gradient-ascii">
       ___           ___                         ___           ___                    ___           ___           ___       ___                ___           ___                   
      /  /\         /  /\          ___          /  /\         /  /\                  /  /\         /  /\         /  /\     /  /\              /  /\         /  /\          ___     
     /  /::|       /  /::\        /  /\        /  /::\       /  /::\                /  /::\       /  /::\       /  /:/    /  /:/             /  /::\       /  /:/         /__/\    
@@ -43,7 +54,9 @@ a:link {
      |  |:/:/   \  \:\ \:\    |  |:|/  /:/  \  \:\ \:\      |  |:|::/            \  \:\_\:\    \  \:\ \:\    \  \:\    \  \:\             \  \:\  /:/   \  \:\/ /:/     /  /:/__\/
      |__|::/     \  \:\_\/    |__|:|__/:/    \  \:\_\/      |  |:|\/              \  \:\/:/     \  \:\_\/     \  \:\    \  \:\             \  \:\/:/     \  \:\/:/     /__/:/     
      /__/:/       \  \:\       \  \::::/      \  \:\        |__|:|~                \  \::/       \  \:\        \  \:\    \  \:\             \  \::/       \  \::/      \__\/      
-     \__\/         \__\/        \_____/        \__\/         \__\|                  \__\/         \__\/         \__\/     \__\/              \__\/         \__\/                  </pre>
+     \__\/         \__\/        \_____/        \__\/         \__\|                  \__\/         \__\/         \__\/     \__\/              \__\/         \__\/                  
+   
+   </pre>
   <div class="column">
    <pre>
 
@@ -96,7 +109,7 @@ a:link {
   </div>
  
   <div class="column">
-   <pre>opening our doors on 11.11.2026 at FEI STU, Bratislava
+   <pre>opening our doors on<a style="color: #0f0;"> 11.11.2026 FEI STU, Bratislava </a>
 
 
 
